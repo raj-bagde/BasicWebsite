@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(236, 222, 204); */
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 30%;
+    background-color: #B6CBBD;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.law-icon {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+.main-name {
+    width: 100%;
+    padding: 10px;
+    /* position: relative;
+    top: -15px; */
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.nav-bar {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    /* border: 1px solid rgb(245, 244, 252); */
+}
+
+
+ul {
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.dropdown-cont {
+    display: none;
+    position: absolute;
+    top: 180px;
+    left: 779px;
+}
+
+.dropdown-menu {
+    list-style: none;
+    display: block;
+    line-height: 30px;
+    background-color: #9ca79f;
+}
+
+.dropdown-toggler:hover .dropdown-cont {
+    display: block;
+    height: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+a:hover {
+    /* font-size: 25px; */
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.61);
+}
+
+.second-img {
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid black; */
+
+}
+
+.img2 {
+    height: 100%;
+    width: 100%;
+}
+
+.mid {
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mid-cont {
+    width: 70%;
+    text-align: justify;
+    padding: 20px;
+}
+
+
+.mid-second {
+    width: 100%;
+    height: 50%;
+    background-color: #B6CBBD;
+}
+
+.ms-cont {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.front-img {
+    width: 250px;
+    height: 250px;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+/* contact page */
+/*****************************************************************************************/
+
+.contact-img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.contact {
+    position: relative;
+    top: -140px;
+    text-align: center;
+    opacity: 0.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form {
+    /* border: 1px solid black; */
+    /* border: 1px solid red; */
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.form-enq {
+    /* margin: 20px; */
+    /* position: relative; */
+    /* left:130px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    opacity: 0.7;
+}
+
+.contact-form-items {
+    /* border: 1px solid red; */
+    /* border: 1px solid black; */
+    height: 90%;
+    width: 70%;
+
+}
+
+#inp {
+    width: 45%;
+    height: 40px;
+    margin: 15px;
+    border: rgba(128, 128, 128, 0.34) solid 1px;
+}
+
+#msg {
+    width: 93%;
+    height: 40px;
+    margin: 15px;
+    border: rgba(128, 128, 128, 0.34) solid 1px;
+
+}
+
+button {
+    width: 93%;
+    height: 50px;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(122, 122, 226, 0.702);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(97, 97, 229);
+    color: white;
+
+}
+
+
+/*Row Area*/
+
+
+.prAreaCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 10px solid green; */
+}
+
+.prArea {
+    width: 70%;
+    /* border: 5px solid yellow; */
+}
+
+.rowArea {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.prImg {
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.rowImg div {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    .header {
+        width: 100%;
+        height: 30%;
+        background-color: #B6CBBD;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .law-icon {
+        width: 50px;
+        height: 100px;
+        padding: 10px;
+        /* border: 1px solid black; */
+    }
+
+    h1 {
+        font-size: 25px;
+        text-align: right;
+    }
+
+    .main-name {
+        width: 100%;
+        font-size: 10px;
+        padding: 10px;
+        text-align: center;
+        /* border: 1px solid black; */
+    }
+
+    ul {
+        /* border: 1px solid yellow; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        list-style: none;
+        justify-content: space-evenly;
+        justify-items: center;
+
+    }
+
+    a {
+        font-size: 18px;
+    }
+
+
+    .mid-second {
+        width: 100%;
+        height: 50%;
+        background-color: #B6CBBD;
+    }
+
+    .ms-cont {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .front-img {
+        width: 90px;
+        height: 90px;
+    }
+
+    h3 {
+        /* border: 1px solid black; */
+        text-align: center;
+        font-size: 8px;
+    }
+
+
+    .form-enq {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: lighter;
+        opacity: 0.7;
+        position: relative;
+        left: -35px;
+    }
+
+    .contact-form-items {
+        /* border: 1px solid red; */
+        /* border: 1px solid black; */
+        height: 90%;
+        width: 70%;
+
+    }
+
+    #inp {
+        width: 95%;
+        height: 40px;
+        margin: 15px;
+        border: rgba(128, 128, 128, 0.34) solid 1px;
+    }
+
+    #msg {
+        width: 95%;
+        height: 40px;
+        margin: 15px;
+        border: rgba(128, 128, 128, 0.34) solid 1px;
+
+    }
+
+    button {
+        width: 95%;
+        height: 50px;
+        margin: 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgba(122, 122, 226, 0.702);
+        cursor: pointer;
+    }
+
+    footer .con-i {
+        margin-left: 10px;
+        font-size: 20px;
+
+    }
+
+    .follow-t {
+        font-size: 20px;
+    }
+
+}
+
+footer .con-i {
+    margin-left: 15px;
+    font-size: 20px;
+}
