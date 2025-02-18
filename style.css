@@ -303,7 +303,9 @@ button:hover {
         display: flex;
         justify-content: flex-start;
     }
-
+  
+    
+    
     .law-icon {
         width: 50px;
         height: 100px;
@@ -418,6 +420,21 @@ button:hover {
     .follow-t {
         font-size: 20px;
     }
+
+    .f8r{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .f8dr, h1{
+        text-align: center;
+    }
+
+  
+
+   
 
 }
 
