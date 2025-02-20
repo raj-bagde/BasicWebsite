@@ -64,7 +64,7 @@ ul {
     display: none;
     position: absolute;
     top: 180px;
-    left: 779px;
+    left: 41%;
 }
 
 .dropdown-menu {
@@ -435,6 +435,31 @@ button:hover {
   
 
    
+
+}
+
+@media(max-width:1024px) {
+
+    .dropdown-cont {
+        display: none;
+        position: absolute;
+        top: 180px;
+        left: 34%;
+    }
+    
+    .dropdown-menu {
+        list-style: none;
+        display: block;
+        line-height: 30px;
+        background-color: #9ca79f;
+    }
+    
+    .dropdown-toggler:hover .dropdown-cont {
+        display: block;
+        height: 100%;
+    
+    }
+    
 
 }
 
